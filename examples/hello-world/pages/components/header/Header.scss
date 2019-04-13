@@ -1,0 +1,26 @@
+#header {
+  background: #FFDA36;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 2px 4px 10px rgb(68,68,68);
+  z-index: 999;
+
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+  color: initial;
+    }
+  }
+
+}

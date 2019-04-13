@@ -1,0 +1,52 @@
+#menu {
+  h1 {
+    cursor: pointer;
+  }
+
+  #menu-items {
+    position: fixed;
+    top: 80px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0, .9);
+    color: white;
+
+    transition: .2s all;
+    
+    ul li {
+      padding: 14px;
+      border-bottom: 2px solid rgba(255, 255, 255, .8);
+    
+      a {
+        color: inherit;
+      }
+
+      &:hover {
+        background-color: rgba(255, 255, 255, .6);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #menu {
+    h1 {
+      display: none;
+    }
+
+    #menu-items {
+      transform: translateX(0%) !important;
+      position: initial;
+      background: none;
+      color: initial;
+      display: flex;
+      justify-content: space-between;
+
+      ul li {
+        border-bottom: 0;
+        display: inline-block;
+      }
+    }
+  }
+}

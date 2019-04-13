@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400");
+
+body {
+  margin-top: 100px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+* {
+  text-decoration: none;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+}
+
+.container {
+  padding: 6px 20px;
+}
+
+.section {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 14px 60px;
+  }
+}

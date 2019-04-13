@@ -1,0 +1,24 @@
+#services {
+  #services-principal-image {
+    margin-top: -20px;
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    #valores-gradient {
+      width: 100%;
+      height: 200px;
+      background: linear-gradient(transparent, rgb(60, 60, 60));
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 720px) {
+  #services #services-principal-image {
+    height: 460px;
+  }
+}
